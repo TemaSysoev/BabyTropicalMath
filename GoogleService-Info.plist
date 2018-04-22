@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>466612094231-844ctjdlos0ap7kvpl0bmrsg9m6pts85.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.466612094231-844ctjdlos0ap7kvpl0bmrsg9m6pts85</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCJneW2_zeT_V7VAKE7qaIdRntzDBYz9Ts</string>
+	<key>GCM_SENDER_ID</key>
+	<string>466612094231</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>t-software.BabyTropicalMath</string>
+	<key>PROJECT_ID</key>
+	<string>babytropicalmath</string>
+	<key>STORAGE_BUCKET</key>
+	<string>babytropicalmath.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:466612094231:ios:d0e302d3ed05ee73</string>
+	<key>DATABASE_URL</key>
+	<string>https://babytropicalmath.firebaseio.com</string>
+</dict>
+</plist>

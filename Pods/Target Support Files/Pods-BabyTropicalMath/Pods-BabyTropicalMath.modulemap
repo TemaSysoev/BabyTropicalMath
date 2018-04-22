@@ -1,0 +1,6 @@
+framework module Pods_BabyTropicalMath {
+  umbrella header "Pods-BabyTropicalMath-umbrella.h"
+
+  export *
+  module * { export * }
+}

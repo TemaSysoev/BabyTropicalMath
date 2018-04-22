@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47BBDFFDFC4BA26162B499D0 /* Pods_BabyTropicalMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD930A57B7C38510C8CAA674 /* Pods_BabyTropicalMath.framework */; };
+		583F1FF88C9BEB4D1DD30E07 /* Pods_BabyTropicalMathTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44137DED76FAFA5EA9B40B3D /* Pods_BabyTropicalMathTests.framework */; };
+		A22B72D69793AB827A0A5F4A /* Pods_BabyTropicalMathUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A68D308116C8884BE6DF97C /* Pods_BabyTropicalMathUITests.framework */; };
+		E06665C720697CBF000FE954 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06665C620697CBF000FE954 /* GameKit.framework */; };
+		E06665C920697D96000FE954 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06665C820697D96000FE954 /* Hello.swift */; };
+		E06665CB2069849E000FE954 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E06665CA2069849E000FE954 /* GoogleService-Info.plist */; };
+		E07B80A820553D700033F006 /* OrangeNew.png in Resources */ = {isa = PBXBuildFile; fileRef = E07B80A720553D6F0033F006 /* OrangeNew.png */; };
+		E07B80AA20553E040033F006 /* ButtonYLNew.png in Resources */ = {isa = PBXBuildFile; fileRef = E07B80A920553E040033F006 /* ButtonYLNew.png */; };
+		E07B80AC20553EB90033F006 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = E07B80AB20553EB80033F006 /* Play.png */; };
+		E07B80AE205541B30033F006 /* Backgrond2.png in Resources */ = {isa = PBXBuildFile; fileRef = E07B80AD205541B20033F006 /* Backgrond2.png */; };
 		E0A6C8442054676C003FF118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6C8432054676C003FF118 /* AppDelegate.swift */; };
 		E0A6C8462054676C003FF118 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0A6C8452054676C003FF118 /* GameScene.sks */; };
 		E0A6C8482054676C003FF118 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E0A6C8472054676C003FF118 /* Actions.sks */; };
@@ -17,6 +27,10 @@
 		E0A6C8542054676C003FF118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A6C8522054676C003FF118 /* LaunchScreen.storyboard */; };
 		E0A6C85F2054676D003FF118 /* BabyTropicalMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6C85E2054676D003FF118 /* BabyTropicalMathTests.swift */; };
 		E0A6C86A2054676E003FF118 /* BabyTropicalMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A6C8692054676E003FF118 /* BabyTropicalMathUITests.swift */; };
+		E0A6C87D205467B1003FF118 /* PirateNew.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A6C878205467AD003FF118 /* PirateNew.png */; };
+		E0A6C87F205467B1003FF118 /* PirateNew2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A6C87A205467B0003FF118 /* PirateNew2.png */; };
+		E0A6C88320547294003FF118 /* PirateNewBaby2.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A6C88120547292003FF118 /* PirateNewBaby2.png */; };
+		E0A6C88420547294003FF118 /* PirateNewBaby.png in Resources */ = {isa = PBXBuildFile; fileRef = E0A6C88220547293003FF118 /* PirateNewBaby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3149F987540FB6FEC91EA2D0 /* Pods-BabyTropicalMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTropicalMath.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyTropicalMath/Pods-BabyTropicalMath.release.xcconfig"; sourceTree = "<group>"; };
+		44137DED76FAFA5EA9B40B3D /* Pods_BabyTropicalMathTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyTropicalMathTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5108833CB381F67991A0AB86 /* Pods-BabyTropicalMathUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTropicalMathUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyTropicalMathUITests/Pods-BabyTropicalMathUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C110925CAA726E236E96B4E /* Pods-BabyTropicalMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTropicalMath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyTropicalMath/Pods-BabyTropicalMath.debug.xcconfig"; sourceTree = "<group>"; };
+		747BC237A97EDECD526C2ECD /* Pods-BabyTropicalMathTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTropicalMathTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabyTropicalMathTests/Pods-BabyTropicalMathTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A68D308116C8884BE6DF97C /* Pods_BabyTropicalMathUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyTropicalMathUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD5D21642544278D8F1480F /* Pods-BabyTropicalMathTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTropicalMathTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyTropicalMathTests/Pods-BabyTropicalMathTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B74BA8D7D2C67D0F0C7FFC2D /* Pods-BabyTropicalMathUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyTropicalMathUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabyTropicalMathUITests/Pods-BabyTropicalMathUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E06665C620697CBF000FE954 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		E06665C820697D96000FE954 /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		E06665CA2069849E000FE954 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E07B80A720553D6F0033F006 /* OrangeNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeNew.png; sourceTree = "<group>"; };
+		E07B80A920553E040033F006 /* ButtonYLNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ButtonYLNew.png; path = ../../TropicalMath/ButtonYLNew.png; sourceTree = "<group>"; };
+		E07B80AB20553EB80033F006 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		E07B80AD205541B20033F006 /* Backgrond2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Backgrond2.png; path = ../../TropicalMath/Backgrond2.png; sourceTree = "<group>"; };
 		E0A6C8402054676B003FF118 /* BabyTropicalMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyTropicalMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A6C8432054676C003FF118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A6C8452054676C003FF118 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +82,11 @@
 		E0A6C8652054676E003FF118 /* BabyTropicalMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyTropicalMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A6C8692054676E003FF118 /* BabyTropicalMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyTropicalMathUITests.swift; sourceTree = "<group>"; };
 		E0A6C86B2054676E003FF118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A6C878205467AD003FF118 /* PirateNew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PirateNew.png; sourceTree = "<group>"; };
+		E0A6C87A205467B0003FF118 /* PirateNew2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PirateNew2.png; sourceTree = "<group>"; };
+		E0A6C88120547292003FF118 /* PirateNewBaby2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PirateNewBaby2.png; sourceTree = SOURCE_ROOT; };
+		E0A6C88220547293003FF118 /* PirateNewBaby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PirateNewBaby.png; sourceTree = SOURCE_ROOT; };
+		FD930A57B7C38510C8CAA674 /* Pods_BabyTropicalMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyTropicalMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06665C720697CBF000FE954 /* GameKit.framework in Frameworks */,
+				47BBDFFDFC4BA26162B499D0 /* Pods_BabyTropicalMath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583F1FF88C9BEB4D1DD30E07 /* Pods_BabyTropicalMathTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +111,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22B72D69793AB827A0A5F4A /* Pods_BabyTropicalMathUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B09FFA63B6E4FB479DC157F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C110925CAA726E236E96B4E /* Pods-BabyTropicalMath.debug.xcconfig */,
+				3149F987540FB6FEC91EA2D0 /* Pods-BabyTropicalMath.release.xcconfig */,
+				7AD5D21642544278D8F1480F /* Pods-BabyTropicalMathTests.debug.xcconfig */,
+				747BC237A97EDECD526C2ECD /* Pods-BabyTropicalMathTests.release.xcconfig */,
+				B74BA8D7D2C67D0F0C7FFC2D /* Pods-BabyTropicalMathUITests.debug.xcconfig */,
+				5108833CB381F67991A0AB86 /* Pods-BabyTropicalMathUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E06665C520697CBF000FE954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E06665C620697CBF000FE954 /* GameKit.framework */,
+				FD930A57B7C38510C8CAA674 /* Pods_BabyTropicalMath.framework */,
+				44137DED76FAFA5EA9B40B3D /* Pods_BabyTropicalMathTests.framework */,
+				7A68D308116C8884BE6DF97C /* Pods_BabyTropicalMathUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0A6C8372054676B003FF118 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +149,8 @@
 				E0A6C85D2054676D003FF118 /* BabyTropicalMathTests */,
 				E0A6C8682054676E003FF118 /* BabyTropicalMathUITests */,
 				E0A6C8412054676B003FF118 /* Products */,
+				E06665C520697CBF000FE954 /* Frameworks */,
+				B09FFA63B6E4FB479DC157F2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,10 +172,20 @@
 				E0A6C8472054676C003FF118 /* Actions.sks */,
 				E0A6C8492054676C003FF118 /* GameScene.swift */,
 				E0A6C84B2054676C003FF118 /* GameViewController.swift */,
+				E06665C820697D96000FE954 /* Hello.swift */,
 				E0A6C84D2054676C003FF118 /* Main.storyboard */,
 				E0A6C8502054676C003FF118 /* Assets.xcassets */,
+				E07B80AD205541B20033F006 /* Backgrond2.png */,
+				E07B80A720553D6F0033F006 /* OrangeNew.png */,
+				E0A6C88220547293003FF118 /* PirateNewBaby.png */,
+				E0A6C88120547292003FF118 /* PirateNewBaby2.png */,
+				E07B80A920553E040033F006 /* ButtonYLNew.png */,
+				E07B80AB20553EB80033F006 /* Play.png */,
+				E0A6C878205467AD003FF118 /* PirateNew.png */,
+				E0A6C87A205467B0003FF118 /* PirateNew2.png */,
 				E0A6C8522054676C003FF118 /* LaunchScreen.storyboard */,
 				E0A6C8552054676C003FF118 /* Info.plist */,
+				E06665CA2069849E000FE954 /* GoogleService-Info.plist */,
 			);
 			path = BabyTropicalMath;
 			sourceTree = "<group>";
@@ -141,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A6C86E2054676E003FF118 /* Build configuration list for PBXNativeTarget "BabyTropicalMath" */;
 			buildPhases = (
+				ED6E97D3D5A365D32E39BA07 /* [CP] Check Pods Manifest.lock */,
 				E0A6C83C2054676B003FF118 /* Sources */,
 				E0A6C83D2054676B003FF118 /* Frameworks */,
 				E0A6C83E2054676B003FF118 /* Resources */,
+				3182DA8423C5CDBBC63844AB /* [CP] Embed Pods Frameworks */,
+				E9406C5F48A8138F85BD07D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A6C8712054676E003FF118 /* Build configuration list for PBXNativeTarget "BabyTropicalMathTests" */;
 			buildPhases = (
+				997513E58C0645AF4F8AB004 /* [CP] Check Pods Manifest.lock */,
 				E0A6C8562054676D003FF118 /* Sources */,
 				E0A6C8572054676D003FF118 /* Frameworks */,
 				E0A6C8582054676D003FF118 /* Resources */,
+				2ABAAF41C1B445B10D1C4661 /* [CP] Embed Pods Frameworks */,
+				37E9EDF64C5B845A9025FD04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0A6C8742054676E003FF118 /* Build configuration list for PBXNativeTarget "BabyTropicalMathUITests" */;
 			buildPhases = (
+				CD6F079B31F84F86DAB42C55 /* [CP] Check Pods Manifest.lock */,
 				E0A6C8612054676E003FF118 /* Sources */,
 				E0A6C8622054676E003FF118 /* Frameworks */,
 				E0A6C8632054676E003FF118 /* Resources */,
+				56F1FB86630A44B43275D596 /* [CP] Embed Pods Frameworks */,
+				1D85173D0A1A508EC07CC86C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +286,11 @@
 					E0A6C83F2054676B003FF118 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					E0A6C8592054676D003FF118 = {
 						CreatedOnToolsVersion = 9.2;
@@ -241,11 +329,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A6C87D205467B1003FF118 /* PirateNew.png in Resources */,
 				E0A6C84F2054676C003FF118 /* Main.storyboard in Resources */,
 				E0A6C8462054676C003FF118 /* GameScene.sks in Resources */,
+				E07B80A820553D700033F006 /* OrangeNew.png in Resources */,
+				E07B80AE205541B30033F006 /* Backgrond2.png in Resources */,
 				E0A6C8512054676C003FF118 /* Assets.xcassets in Resources */,
+				E07B80AA20553E040033F006 /* ButtonYLNew.png in Resources */,
+				E0A6C88420547294003FF118 /* PirateNewBaby.png in Resources */,
 				E0A6C8542054676C003FF118 /* LaunchScreen.storyboard in Resources */,
+				E0A6C87F205467B1003FF118 /* PirateNew2.png in Resources */,
 				E0A6C8482054676C003FF118 /* Actions.sks in Resources */,
+				E0A6C88320547294003FF118 /* PirateNewBaby2.png in Resources */,
+				E07B80AC20553EB90033F006 /* Play.png in Resources */,
+				E06665CB2069849E000FE954 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +362,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D85173D0A1A508EC07CC86C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyTropicalMathUITests/Pods-BabyTropicalMathUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ABAAF41C1B445B10D1C4661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyTropicalMathTests/Pods-BabyTropicalMathTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3182DA8423C5CDBBC63844AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabyTropicalMath/Pods-BabyTropicalMath-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyTropicalMath/Pods-BabyTropicalMath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37E9EDF64C5B845A9025FD04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyTropicalMathTests/Pods-BabyTropicalMathTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F1FB86630A44B43275D596 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyTropicalMathUITests/Pods-BabyTropicalMathUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997513E58C0645AF4F8AB004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyTropicalMathTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6F079B31F84F86DAB42C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyTropicalMathUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9406C5F48A8138F85BD07D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabyTropicalMath/Pods-BabyTropicalMath-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED6E97D3D5A365D32E39BA07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyTropicalMath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0A6C83C2054676B003FF118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -272,6 +521,7 @@
 			files = (
 				E0A6C84A2054676C003FF118 /* GameScene.swift in Sources */,
 				E0A6C84C2054676C003FF118 /* GameViewController.swift in Sources */,
+				E06665C920697D96000FE954 /* Hello.swift in Sources */,
 				E0A6C8442054676C003FF118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +686,7 @@
 		};
 		E0A6C86F2054676E003FF118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C110925CAA726E236E96B4E /* Pods-BabyTropicalMath.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,12 +696,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "t-software.BabyTropicalMath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		E0A6C8702054676E003FF118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3149F987540FB6FEC91EA2D0 /* Pods-BabyTropicalMath.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,12 +712,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "t-software.BabyTropicalMath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
 		E0A6C8722054676E003FF118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD5D21642544278D8F1480F /* Pods-BabyTropicalMathTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +736,7 @@
 		};
 		E0A6C8732054676E003FF118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747BC237A97EDECD526C2ECD /* Pods-BabyTropicalMathTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +754,7 @@
 		};
 		E0A6C8752054676E003FF118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74BA8D7D2C67D0F0C7FFC2D /* Pods-BabyTropicalMathUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +771,7 @@
 		};
 		E0A6C8762054676E003FF118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5108833CB381F67991A0AB86 /* Pods-BabyTropicalMathUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
